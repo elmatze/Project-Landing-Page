@@ -4,42 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Awesome Website </title>
+    <!-- <title> Awesome Website </title> -->
 
+    <link rel ="stylesheet" href="style.css">
     <!-- <link rel="icon" href="images/" type="image/jpg"> -->
 </head>
 
 <body>
     <header>
-        <p><b>Header Logo</b></p>
-        <a> header link one </a>
-        <a> header link two </a>
-        <a> header link three </a>
+        <p class="header-logo"><b>Header Logo</b></p>
+        <div class="link-container">
+            <a> header link one </a>
+            <a> header link two </a>
+            <a> header link three </a>
+        </div>
     </header>
-    <div>
-        <h1>This website is awesome</h1>
-        <p> This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button> Sign Up </button> 
+    <div class="container-heading">
+        <div class="header-and-subtext">
+            <h1>This website is awesome</h1>
+            <p class="hero-secondary"> This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button> Sign Up </button> 
+        </div>
+        <div class="image">
+            <img src="images/..." width="500px" height="100px" alt="this is a placeholder for an image">
+        </div>
     </div>
-    <div>
-        <img src="images/..." width="500px" height="100px" alt="this is a placeholder for an image">
-    </div>
+    <div class="container-random-info">
+        <h3> Some random information. </h3>
+        <div>
+            <div class="square"></div>
+            <p> this is some subtext under an illustration or image</p>
+            
+            <div class="square"></div>
+            <p> this is some subtext under an illustration or image</p>
+    
+            <div class="square"></div>
+            <p> this is some subtext under an illustration or image</p>
 
-    <h3> Some random information. </h3>
-    <div>
-        <div></div>
-        <p> this is some subtext under an illustration or image</p>
-        
-        <div></div>
-        <p> this is some subtext under an illustration or image</p>
-   
-        <div></div>
-        <p> this is some subtext under an illustration or image</p>
-
-        <div></div>
-        <p> this is some subtext under an illustration or image</p>
-    </div>
-
+            <div class="square"></div>
+            <p> this is some subtext under an illustration or image</p>
+        </div>
+        </div>
     <div>
         <p> 
             This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. 

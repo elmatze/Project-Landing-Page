@@ -1,0 +1,88 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+/* div {
+    border: 1px solid red;
+} */
+
+.container-heading {
+    display: flex;
+    padding: 70px 0;
+    background-color: #1F2937;
+}
+
+.header-and-subtext {
+    flex: 1;
+    margin-left: 130px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+/* Both Buttons: Under Heading, as well as in Call to action */
+button {
+    background-color: #3882F6;
+}
+
+.image {
+    flex: 1;
+    margin-right: 130px;
+}
+
+/* .container-random-info {
+    display: flex;
+}  */
+
+/* h3 {
+    justify-content: center;
+} */
+
+.square {
+    width: 100px; 
+    height: 100px;
+    outline: 2.5px solid #3882F6;
+    border-radius: 9px;
+}
+
+header {
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;   
+    background-color: #1F2937;
+}
+
+
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: flex-start;
+}
+
+.link-container {
+    justify-content: flex-end;
+}
+
+.hero-secondary, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+
+a:hover {
+    cursor: pointer;
+}
+
+
+footer {
+
+    background-color: #1F2937;
+    align-items: center;
+}
