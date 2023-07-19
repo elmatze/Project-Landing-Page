@@ -3,11 +3,13 @@
     padding: 0;
     margin: 0;
     border: 0;
-
+    /* border: 1px solid red; */
 }
-/* div {
-    border: 1px solid red;
-} */
+
+header {
+    padding-top: 10px;
+}
+
 
 .container-heading {
     display: flex;
@@ -28,6 +30,10 @@ h1 {
 /* Both Buttons: Under Heading, as well as in Call to action */
 button {
     background-color: #3882F6;
+    color: #f9faf8;
+    padding: 8px 25px; 
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .image {
@@ -35,26 +41,57 @@ button {
     margin-right: 130px;
 }
 
-/* .container-random-info {
-    display: flex;
-}  */
 
-/* h3 {
+
+.container-square-and-subtext {
+    margin-bottom: 100px;
+}
+
+h3 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
     justify-content: center;
-} */
+    margin: 20px 0;
+}
+
+.container-squares {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-evenly;
+}
 
 .square {
-    width: 100px; 
-    height: 100px;
-    outline: 2.5px solid #3882F6;
+    width: 120px; 
+    height: 120px;
+    outline: 3px solid #3882F6;
     border-radius: 9px;
 }
+
+.container-subtext {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.subtext {
+    width: 120px;
+    font-size: 14px;
+    color: #1f2937;
+}
+
+/* .inline {
+    display: inline-block;
+} */
 
 header {
     padding-left: 130px;
     padding-right: 130px;
     display: flex;   
     background-color: #1F2937;
+    justify-content: space-between;
 }
 
 
@@ -67,6 +104,7 @@ header {
 
 .link-container {
     justify-content: flex-end;
+    align-self: center;
 }
 
 .hero-secondary, a {
@@ -81,8 +119,66 @@ a:hover {
 }
 
 
-footer {
+.container-quote {
+    background-color: #E5E7EB;
+    padding: 100px 200px 0;
+    display: flex;
+}
 
+.quote {
+    font-size: 36px;
+    font-weight: LIGHTITALIC;
+    color: #1f2937;
+}
+
+.quoter {
+    padding-top: 20px;
+    background-color: #E5E7EB;
+}
+
+.thor {
+    display: flex;
+    margin-right: 240px;
+    padding-bottom: 100px;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.whitespace {
+    background-color: #f9faf8;
+    margin: 50px 220px;
+}
+
+.container-call-to-action {
+    background-color: #3882f6;
+    border-radius: 9px;
+    padding: 40px;
+}
+
+.header-call-to-action {
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text-call-to-action {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.button-call-to-action {
+    border: 1px solid #f9faf8;
+    color: #f9faf8;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+footer {
+    display: flex; 
     background-color: #1F2937;
-    align-items: center;
+    font-size: 14px;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 20px 0;
 }
